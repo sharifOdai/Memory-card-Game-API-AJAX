@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <script
+      src="https://code.jquery.com/jquery-1.12.3.min.js"
+      integrity="sha256-aaODHAgvwQW1bFOGXMeX+pC4PZIPsvn2h1sArYOhgXQ="
+      crossorigin="anonymous"
+    ></script>
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+  
+
+      <!-- <div class="container">     -->
+        <button id="start-game" class="btn">Press To Start</button>
+      
+
+      <div class="second-container" style="display: none;">
+        <div class="paragraph">
+          
+          <p class="paragraph">Choose Your Favorite Thing To Memorize <span>&#10697;</span> :</p>
+
+        </div>
+        <br><br>
+        <button class="HarryPotter btn option">Harry Potter</button>
+        <br><br>
+        <button class="Dogs btn option"> Dogs</button>
+        <br><br>
+        <button class="Flags btn option">Flags</button>
+        <br><br>
+        <button class="btn random" id="random" onclick="chooseRandomOption()">Let Me Choose For You Randomly <p style="font-size:20px">&#128540;</p></button>
+      </div>
+
+    <section class="memory-game" style="display: none;">
+      
+      <div class="restart">
+        
+        <button class="btn restart-btn" id="restart-game">Restart</button>
+      </div>
+
+      <div class="memory-card " data-framework="first">
+          <img class="front-face one"  />
+          <img class="back-face" />
+      </div>
+      <div class="memory-card " data-framework="first">
+          <img class="front-face one"  />
+          <img class="back-face" />
+      </div>
+
+      <div class="memory-card " data-framework="second">
+          <img class="front-face two"  />
+          <img class="back-face"  />
+      </div>
+      <div class="memory-card " data-framework="second">
+          <img class="front-face two"  />
+          <img class="back-face" />
+      </div>
+
+      <div class="memory-card " data-framework="third">
+          <img class="front-face three"  />
+          <img class="back-face"  />
+      </div>
+      <div class="memory-card " data-framework="third">
+          <img class="front-face three"  />
+          <img class="back-face"  />
+      </div>
+
+      <div class="memory-card " data-framework="fourth">
+          <img class="front-face four" />
+          <img class="back-face"  />
+      </div>
+      <div class="memory-card " data-framework="fourth">
+          <img class="front-face four" />
+          <img class="back-face" />
+      </div>
+
+      <div class="memory-card " data-framework="fifth">
+          <img class="front-face five" />
+          <img class="back-face" />
+      </div>
+      <div class="memory-card " data-framework="fifth">
+          <img class="front-face five"  />
+          <img class="back-face"  />
+      </div>
+
+      <div class="memory-card " data-framework="sixth">
+          <img class="front-face six"  /> 
+          <img class="back-face"  />
+      </div>
+      <div class="memory-card " data-framework="sixth">
+          <img class="front-face six"  />
+          <img class="back-face"  />
+      </div>
+
+    </section>
+
+      
+ 
+    
+    <script src="./main.js"></script>
+  </body>
+</html>
